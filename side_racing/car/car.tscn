@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://clrrv1j7ufouw"]
+
+[ext_resource type="Texture2D" uid="uid://hcgjkiicy0q4" path="res://side_racing/resources/sports_red.png" id="1_cgqh6"]
+[ext_resource type="Script" path="res://side_racing/car/car.gd" id="1_l5d8c"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l5d8c"]
+size = Vector2(34, 12)
+
+[node name="Car" type="CharacterBody2D"]
+scale = Vector2(3, 3)
+script = ExtResource("1_l5d8c")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_cgqh6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_l5d8c")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2, 2)
+limit_top = -120
+limit_bottom = 120
