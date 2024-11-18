@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://buieca5i1q0h2"]
+
+[ext_resource type="Texture2D" uid="uid://ceafesjvv3dfa" path="res://shooter_platformer/resources/effect_blast.png" id="1_hl25o"]
+[ext_resource type="Script" path="res://shooter_platformer/player/blast.gd" id="2_bg4i7"]
+
+[node name="Blast" type="Sprite2D"]
+modulate = Color(1, 1, 1, 0)
+scale = Vector2(1e-05, 1e-05)
+texture = ExtResource("1_hl25o")
+script = ExtResource("2_bg4i7")
