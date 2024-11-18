@@ -1,4 +1,6 @@
-extends Sprite2D
+extends Node2D
+
+@onready var audio_stream_player: AudioStreamPlayer = $AudioStreamPlayer
 
 func _ready() -> void:
 	var tween := create_tween()
@@ -9,3 +11,4 @@ func _ready() -> void:
 	tween.tween_callback(func() -> void:
 		queue_free()
 	)
+	audio_stream_player.play()

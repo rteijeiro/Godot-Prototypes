@@ -13,7 +13,7 @@ func _ready() -> void:
 	)
 	body_entered.connect(func(body: Node2D) -> void:
 		if body.name == "Level1":
-			var blast:Sprite2D = Blast.instantiate()
+			var blast:Node2D = Blast.instantiate()
 			blast.position = global_position
 			get_tree().root.add_child(blast)
 		queue_free()
