@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cvllj6otijvtk"
-path="res://.godot/imported/highway.png-a41c0ae1c1c6044230a2ad27028b2314.ctex"
+uid="uid://bee8aqhhji6k1"
+path="res://.godot/imported/buggy.png-aac1a6d38f1abca5e08edac171991e0c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://side_racing/resources/highway.png"
-dest_files=["res://.godot/imported/highway.png-a41c0ae1c1c6044230a2ad27028b2314.ctex"]
+source_file="res://side_racing/resources/obstacles/buggy.png"
+dest_files=["res://.godot/imported/buggy.png-aac1a6d38f1abca5e08edac171991e0c.ctex"]
 
 [params]
 

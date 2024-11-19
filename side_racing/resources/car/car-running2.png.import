@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://hcgjkiicy0q4"
-path="res://.godot/imported/sports_red.png-0332bdfc9f1b490e73e71ec75fa6ae8d.ctex"
+uid="uid://bjoy60cjx0m4j"
+path="res://.godot/imported/car-running2.png-9cd32564e72ec661b1fc480ddba715d9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://side_racing/resources/sports_red.png"
-dest_files=["res://.godot/imported/sports_red.png-0332bdfc9f1b490e73e71ec75fa6ae8d.ctex"]
+source_file="res://side_racing/resources/car/car-running2.png"
+dest_files=["res://.godot/imported/car-running2.png-9cd32564e72ec661b1fc480ddba715d9.ctex"]
 
 [params]
 

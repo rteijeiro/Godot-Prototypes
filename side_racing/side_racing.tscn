@@ -1,11 +1,21 @@
-[gd_scene load_steps=3 format=3 uid="uid://ksv25y1xujps"]
+[gd_scene load_steps=4 format=3 uid="uid://ksv25y1xujps"]
 
 [ext_resource type="PackedScene" uid="uid://bnfxevlm2ups0" path="res://side_racing/road/road.tscn" id="1_lvej4"]
 [ext_resource type="PackedScene" uid="uid://clrrv1j7ufouw" path="res://side_racing/car/car.tscn" id="1_vwp1j"]
+[ext_resource type="Script" path="res://side_racing/side_racing.gd" id="1_w288y"]
 
 [node name="SideRacing" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_w288y")
 
 [node name="Road" parent="." instance=ExtResource("1_lvej4")]
+position = Vector2(258, 0)
 
 [node name="Car" parent="." instance=ExtResource("1_vwp1j")]
 position = Vector2(-1, 67)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+volume_db = -5.0
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true

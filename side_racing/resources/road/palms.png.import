@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://f3yblh2u01je"
-path="res://.godot/imported/back.png-7e4e0930bd4f8459a766a5f85f02038d.ctex"
+uid="uid://7f456d5q54ql"
+path="res://.godot/imported/palms.png-8ee87714a70f04cd41ef6928e2599e71.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://side_racing/resources/back.png"
-dest_files=["res://.godot/imported/back.png-7e4e0930bd4f8459a766a5f85f02038d.ctex"]
+source_file="res://side_racing/resources/road/palms.png"
+dest_files=["res://.godot/imported/palms.png-8ee87714a70f04cd41ef6928e2599e71.ctex"]
 
 [params]
 

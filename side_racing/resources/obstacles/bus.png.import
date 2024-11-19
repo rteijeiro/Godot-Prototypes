@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://oqnxs51y04pu"
-path="res://.godot/imported/buildings.png-22a8b31e47757e8890dc996d45186632.ctex"
+uid="uid://dw0d58fq4p36p"
+path="res://.godot/imported/bus.png-70f1eacfc69b78870ecb060b770b9f38.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://side_racing/resources/buildings.png"
-dest_files=["res://.godot/imported/buildings.png-22a8b31e47757e8890dc996d45186632.ctex"]
+source_file="res://side_racing/resources/obstacles/bus.png"
+dest_files=["res://.godot/imported/bus.png-70f1eacfc69b78870ecb060b770b9f38.ctex"]
 
 [params]
 
