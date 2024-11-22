@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bbix0wcoxmep0"
-path="res://.godot/imported/crosshair184.png-0949ea63fed065f8616b037ac0db40a7.ctex"
+uid="uid://rlfwdbxosr5u"
+path="res://.godot/imported/backgroundColorForest.png-23dc8043cf87ef6ea29c24d1a1bb9ba3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://side_tanks/resources/tank/crosshair184.png"
-dest_files=["res://.godot/imported/crosshair184.png-0949ea63fed065f8616b037ac0db40a7.ctex"]
+source_file="res://side_tanks/resources/backgroundColorForest.png"
+dest_files=["res://.godot/imported/backgroundColorForest.png-23dc8043cf87ef6ea29c24d1a1bb9ba3.ctex"]
 
 [params]
 

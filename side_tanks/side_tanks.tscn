@@ -1,8 +1,33 @@
-[gd_scene load_steps=2 format=3 uid="uid://cg6ahdqitm4mo"]
+[gd_scene load_steps=5 format=3 uid="uid://cg6ahdqitm4mo"]
 
 [ext_resource type="PackedScene" uid="uid://c1ktfwo8sxppu" path="res://side_tanks/tank/tank.tscn" id="1_4nq3n"]
+[ext_resource type="Texture2D" uid="uid://rlfwdbxosr5u" path="res://side_tanks/resources/backgroundColorForest.png" id="1_wo4b5"]
+[ext_resource type="Texture2D" uid="uid://br8oaxfjvn6pf" path="res://side_tanks/resources/elementStone013.png" id="2_0mxwq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_muf3k"]
+size = Vector2(1282, 68)
 
 [node name="SideTanks" type="Node2D"]
 
+[node name="Background" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -424)
+scale = Vector2(1.24219, 1.24219)
+texture = ExtResource("1_wo4b5")
+centered = false
+
+[node name="Floor" type="StaticBody2D" parent="."]
+position = Vector2(635, 595)
+
+[node name="Sprite2D" type="Sprite2D" parent="Floor"]
+texture_filter = 1
+texture_repeat = 2
+texture = ExtResource("2_0mxwq")
+region_enabled = true
+region_rect = Rect2(0, 0, 1280, 70)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor"]
+shape = SubResource("RectangleShape2D_muf3k")
+
 [node name="Tank" parent="." instance=ExtResource("1_4nq3n")]
-position = Vector2(592, 334)
+position = Vector2(51, 546)
