@@ -1,5 +1,6 @@
 extends Node2D
 
+@onready var _crosshair = preload("res://shooting_gallery/resources/stall/crosshair_outline_large.png")
 @onready var Target = preload("res://shooting_gallery/target/target.tscn")
 @onready var _timer: Timer = $Timer
 @onready var targets: Node2D = $Targets
@@ -7,6 +8,7 @@ extends Node2D
 @onready var back_ducks: Node2D = $BackDucks
 
 func _ready() -> void:
+	Input.set_custom_mouse_cursor(_crosshair)
 	_timer.connect("timeout", _spawn_targets)
 	
 	
