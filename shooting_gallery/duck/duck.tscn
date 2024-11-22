@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://dk8t7f8bm8w4k"]
+
+[ext_resource type="Script" path="res://shooting_gallery/duck/duck.gd" id="1_ndt7h"]
+[ext_resource type="Texture2D" uid="uid://dg1xsacwl08wi" path="res://shooting_gallery/resources/Ducks/stick_wood_outline.png" id="1_w5pof"]
+[ext_resource type="Texture2D" uid="uid://bhikfxuyrjgu4" path="res://shooting_gallery/resources/Ducks/duck_outline_brown.png" id="2_ndt7h"]
+
+[node name="Duck" type="Area2D"]
+script = ExtResource("1_ndt7h")
+
+[node name="Stick" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, 112)
+texture = ExtResource("1_w5pof")
+
+[node name="Target" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("2_ndt7h")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-2, -49, 12, -53, 28, -51, 39, -43, 45, -28, 53, -25, 54, -14, 47, -6, 37, -5, 45, 17, 41, 35, 25, 50, 2, 54, -22, 52, -44, 41, -54, 22, -56, -2, -50, -20, -42, -24, -31, -21, -28, -12, -20, -8, -8, -9, -13, -21, -12, -36)
+
+[connection signal="input_event" from="." to="." method="_on_input_event"]

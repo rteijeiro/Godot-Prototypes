@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://by1oteunn074f"]
+
+[ext_resource type="Texture2D" uid="uid://cjx3x24bw6f5n" path="res://shooting_gallery/resources/Targets/stick_metal_outline.png" id="1_0sfg3"]
+[ext_resource type="Script" path="res://shooting_gallery/target/target.gd" id="1_6xtoq"]
+[ext_resource type="Texture2D" uid="uid://cdlnypbwuk27m" path="res://shooting_gallery/resources/Targets/target_colored_outline.png" id="2_ih44b"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ih44b"]
+radius = 32.0
+
+[node name="Target" type="Area2D"]
+script = ExtResource("1_6xtoq")
+
+[node name="Stick" type="Sprite2D" parent="."]
+position = Vector2(0, 64)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_0sfg3")
+
+[node name="Target" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_ih44b")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_ih44b")
+
+[connection signal="input_event" from="." to="." method="_on_input_event"]
