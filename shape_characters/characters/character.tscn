@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://bytwht70n8d44"]
+[gd_scene load_steps=6 format=3 uid="uid://bytwht70n8d44"]
 
 [ext_resource type="Script" path="res://shape_characters/characters/character.gd" id="1_6smai"]
 [ext_resource type="Texture2D" uid="uid://b0swdr10x016y" path="res://shape_characters/resources/characters/blue/blue_body_circle.png" id="1_s5hmw"]
 [ext_resource type="Texture2D" uid="uid://c26tx7wb0vhc7" path="res://shape_characters/resources/characters/faces/face_a.png" id="2_bb8e7"]
 [ext_resource type="Texture2D" uid="uid://b1iom4j0ah7s8" path="res://shape_characters/resources/characters/blue/blue_hand_open.png" id="3_bb8e7"]
+[ext_resource type="Texture2D" uid="uid://csr3gpqtbso0a" path="res://shape_characters/resources/characters/shadow.png" id="5_n7fxg"]
 
 [node name="Character" type="Node2D"]
 script = ExtResource("1_6smai")
@@ -26,3 +27,7 @@ texture = ExtResource("3_bb8e7")
 position = Vector2(65, 0)
 rotation = 0.785398
 texture = ExtResource("3_bb8e7")
+
+[node name="Shadow" type="Sprite2D" parent="."]
+position = Vector2(0, 48)
+texture = ExtResource("5_n7fxg")

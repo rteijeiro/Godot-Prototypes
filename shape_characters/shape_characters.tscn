@@ -1,6 +1,12 @@
-[gd_scene load_steps=2 format=3 uid="uid://c1ari6ga0ft8f"]
+[gd_scene load_steps=3 format=3 uid="uid://c1ari6ga0ft8f"]
 
 [ext_resource type="Script" path="res://shape_characters/shape_characters.gd" id="1_1ne0a"]
+[ext_resource type="Texture2D" uid="uid://da13i7hovkqlj" path="res://shape_characters/resources/backgroundColorGrass.png" id="2_jvrv4"]
 
 [node name="ShapeCharacters" type="Node2D"]
 script = ExtResource("1_1ne0a")
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(0, -216)
+texture = ExtResource("2_jvrv4")
+centered = false

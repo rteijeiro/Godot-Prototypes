@@ -9,25 +9,25 @@ extends Node2D
 
 func _ready() -> void:
 	var blue_character:Character = CharacterBlue.instantiate()
-	blue_character.position = Vector2(200, 200)
+	blue_character.position = Vector2(200, 500)
 	get_tree().current_scene.add_child(blue_character)
 
 	var green_character:Character = CharacterGreen.instantiate()
-	green_character.position = Vector2(400, 200)
+	green_character.position = Vector2(300, 600)
 	get_tree().current_scene.add_child(green_character)
 
 	var pink_character:Character = CharacterPink.instantiate()
-	pink_character.position = Vector2(600, 200)
+	pink_character.position = Vector2(400, 500)
 	get_tree().current_scene.add_child(pink_character)
 
 	var purple_character:Character = CharacterPurple.instantiate()
-	purple_character.position = Vector2(200, 400)
+	purple_character.position = Vector2(500, 600)
 	get_tree().current_scene.add_child(purple_character)
 
 	var red_character:Character = CharacterRed.instantiate()
-	red_character.position = Vector2(400, 400)
+	red_character.position = Vector2(600, 500)
 	get_tree().current_scene.add_child(red_character)
 	
 	var yellow_character:Character = CharacterYellow.instantiate()
-	yellow_character.position = Vector2(600, 400)
+	yellow_character.position = Vector2(700, 600)
 	get_tree().current_scene.add_child(yellow_character)
