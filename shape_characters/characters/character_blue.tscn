@@ -1,0 +1,17 @@
+[gd_scene load_steps=12 format=3 uid="uid://cpstbpeetejo0"]
+
+[ext_resource type="PackedScene" uid="uid://bytwht70n8d44" path="res://shape_characters/characters/character.tscn" id="1_rc7s7"]
+[ext_resource type="Texture2D" uid="uid://b0swdr10x016y" path="res://shape_characters/resources/characters/blue/blue_body_circle.png" id="3_o7qej"]
+[ext_resource type="Texture2D" uid="uid://2ut8ce38fk47" path="res://shape_characters/resources/characters/blue/blue_body_rhombus.png" id="4_7vk3l"]
+[ext_resource type="Texture2D" uid="uid://bly00tcsyagro" path="res://shape_characters/resources/characters/blue/blue_body_square.png" id="5_7tcty"]
+[ext_resource type="Texture2D" uid="uid://b5ib5j3e3afu1" path="res://shape_characters/resources/characters/blue/blue_body_squircle.png" id="6_y5wii"]
+[ext_resource type="Texture2D" uid="uid://bbyot3m6b0hfg" path="res://shape_characters/resources/characters/blue/blue_hand_closed.png" id="7_k3iso"]
+[ext_resource type="Texture2D" uid="uid://b1iom4j0ah7s8" path="res://shape_characters/resources/characters/blue/blue_hand_open.png" id="8_40ais"]
+[ext_resource type="Texture2D" uid="uid://cotycrbl84g7k" path="res://shape_characters/resources/characters/blue/blue_hand_peace.png" id="9_k0s80"]
+[ext_resource type="Texture2D" uid="uid://c7cf6hfggwuqu" path="res://shape_characters/resources/characters/blue/blue_hand_point.png" id="10_t2tju"]
+[ext_resource type="Texture2D" uid="uid://b1ardu1fg06ac" path="res://shape_characters/resources/characters/blue/blue_hand_rock.png" id="11_owp8x"]
+[ext_resource type="Texture2D" uid="uid://b5o8v7j7ndklg" path="res://shape_characters/resources/characters/blue/blue_hand_thumb.png" id="12_3mrn1"]
+
+[node name="CharacterBlue" instance=ExtResource("1_rc7s7")]
+bodies = Array[Texture2D]([ExtResource("3_o7qej"), ExtResource("4_7vk3l"), ExtResource("5_7tcty"), ExtResource("6_y5wii")])
+hands = Array[Texture2D]([ExtResource("7_k3iso"), ExtResource("8_40ais"), ExtResource("9_k0s80"), ExtResource("10_t2tju"), ExtResource("11_owp8x"), ExtResource("12_3mrn1")])
