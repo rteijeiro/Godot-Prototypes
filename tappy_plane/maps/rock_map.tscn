@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://hngc5ur7ut6l"]
+
+[ext_resource type="Texture2D" uid="uid://4y4x2sbs6ilq" path="res://tappy_plane/resources/background.png" id="1_bedqe"]
+[ext_resource type="Texture2D" uid="uid://duhil6cbju5xa" path="res://tappy_plane/resources/groundDirt.png" id="2_gt3x7"]
+
+[node name="RockMap" type="Node2D"]
+
+[node name="Background" type="Parallax2D" parent="."]
+repeat_size = Vector2(800, 0)
+autoscroll = Vector2(-150, 0)
+repeat_times = 4
+
+[node name="Sprite2D" type="Sprite2D" parent="Background"]
+texture = ExtResource("1_bedqe")
+centered = false
+
+[node name="Ground" type="Parallax2D" parent="."]
+scroll_offset = Vector2(0, 1)
+repeat_size = Vector2(808, 0)
+autoscroll = Vector2(-200, 0)
+repeat_times = 5
+
+[node name="Sprite2D" type="Sprite2D" parent="Ground"]
+position = Vector2(0, 444)
+texture = ExtResource("2_gt3x7")
