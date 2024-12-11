@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cjdhmplapqpo7"]
 
 [ext_resource type="Texture2D" uid="uid://yl0irfo8aic" path="res://tappy_plane/resources/rockDown.png" id="1_alvx3"]
-[ext_resource type="Script" path="res://tappy_plane/rocks/rock_down.gd" id="1_q6brv"]
+[ext_resource type="Script" uid="uid://36cbt0dohyrc" path="res://tappy_plane/rocks/rock_down.gd" id="1_q6brv"]
 
 [node name="RockDown" type="Area2D"]
 script = ExtResource("1_q6brv")

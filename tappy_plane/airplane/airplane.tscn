@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=3 uid="uid://b8l71dgergcqs"]
 
 [ext_resource type="Texture2D" uid="uid://c34tkhj4j2nuo" path="res://tappy_plane/resources/plane/planeRed1.png" id="1_7mvae"]
-[ext_resource type="Script" path="res://tappy_plane/airplane/airplane.gd" id="1_yvliv"]
+[ext_resource type="Script" uid="uid://bmt5tm5rvtgcr" path="res://tappy_plane/airplane/airplane.gd" id="1_yvliv"]
 [ext_resource type="Texture2D" uid="uid://cx44ucy0yti1p" path="res://tappy_plane/resources/plane/puffLarge.png" id="2_svcdb"]
 [ext_resource type="Texture2D" uid="uid://bfbiofbcmqo7g" path="res://tappy_plane/resources/plane/planeRed2.png" id="2_yvliv"]
 [ext_resource type="Texture2D" uid="uid://dfqkq12dyhg30" path="res://tappy_plane/resources/plane/planeRed3.png" id="3_47rqy"]
