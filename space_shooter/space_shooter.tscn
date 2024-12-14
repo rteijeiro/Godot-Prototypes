@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://vbgchrh7gvxg"]
 
 [ext_resource type="Texture2D" uid="uid://jeau6ojtivro" path="res://space_shooter/resources/darkPurple.png" id="1_c1ovu"]
-[ext_resource type="Script" path="res://space_shooter/space_shooter.gd" id="1_wr0f6"]
+[ext_resource type="Script" uid="uid://cefo2yncownwg" path="res://space_shooter/space_shooter.gd" id="1_wr0f6"]
 [ext_resource type="PackedScene" uid="uid://dmmyr6kxhhv2u" path="res://space_shooter/ship/ship.tscn" id="2_nfsai"]
 
 [node name="Space_Shooter" type="Node2D"]

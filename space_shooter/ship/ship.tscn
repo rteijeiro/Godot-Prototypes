@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://dmmyr6kxhhv2u"]
 
-[ext_resource type="Script" path="res://space_shooter/ship/ship.gd" id="1_c8427"]
+[ext_resource type="Script" uid="uid://nj7rd6phstoa" path="res://space_shooter/ship/ship.gd" id="1_c8427"]
 [ext_resource type="Texture2D" uid="uid://b8lyyqbhyp4a0" path="res://space_shooter/resources/playerShip2_blue.png" id="1_n2dms"]
 [ext_resource type="Texture2D" uid="uid://32tmbwe7lkck" path="res://space_shooter/resources/trace_07.png" id="2_bxp2d"]
 [ext_resource type="AudioStream" uid="uid://d3bdkwtbcve6q" path="res://space_shooter/resources/sfx_laser2.ogg" id="3_oilad"]

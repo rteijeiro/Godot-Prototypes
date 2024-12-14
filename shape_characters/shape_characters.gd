@@ -1,5 +1,6 @@
 extends Node2D
 
+# Preloads all character scenes in different variables.
 @onready var CharacterBlue := preload("res://shape_characters/characters/character_blue.tscn")
 @onready var CharacterGreen := preload("res://shape_characters/characters/character_green.tscn")
 @onready var CharacterPink := preload("res://shape_characters/characters/character_pink.tscn")
@@ -7,6 +8,7 @@ extends Node2D
 @onready var CharacterRed := preload("res://shape_characters/characters/character_red.tscn")
 @onready var CharacterYellow := preload("res://shape_characters/characters/character_yellow.tscn")
 
+# Instantiates all character scenes in specific positions.
 func _ready() -> void:
 	var blue_character:Character = CharacterBlue.instantiate()
 	blue_character.position = Vector2(200, 500)

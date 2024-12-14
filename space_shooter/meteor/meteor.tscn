@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://bt00otrq8vyjk"]
 
 [ext_resource type="Texture2D" uid="uid://p2qgqybn7uo4" path="res://space_shooter/resources/meteorBrown_big1.png" id="1_ibvo2"]
-[ext_resource type="Script" path="res://space_shooter/meteor/meteor.gd" id="1_pm6on"]
+[ext_resource type="Script" uid="uid://cg0vvxwrjqvm3" path="res://space_shooter/meteor/meteor.gd" id="1_pm6on"]
 [ext_resource type="Texture2D" uid="uid://i5urja10en2y" path="res://space_shooter/resources/meteorBrown_big2.png" id="3_wv606"]
 [ext_resource type="Texture2D" uid="uid://bsl4yn5k763kq" path="res://space_shooter/resources/meteorBrown_big3.png" id="4_qa1n1"]
 [ext_resource type="Texture2D" uid="uid://dy4jdmhoghjgq" path="res://space_shooter/resources/meteorBrown_big4.png" id="5_lqi1g"]

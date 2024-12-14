@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://yvm4q3ivri73"]
 
-[ext_resource type="Script" path="res://side_tanks/tank/bullet.gd" id="1_7iufr"]
+[ext_resource type="Script" uid="uid://cbgn3lkhgarv1" path="res://side_tanks/tank/bullet.gd" id="1_7iufr"]
 [ext_resource type="Texture2D" uid="uid://dvqcuejnvlty2" path="res://side_tanks/resources/tank/tank_bullet6.png" id="1_scs66"]
 [ext_resource type="Texture2D" uid="uid://dpc3rueyxt5te" path="res://side_tanks/resources/tank/explosion/tank_explosion2.png" id="3_hrb83"]
 [ext_resource type="Texture2D" uid="uid://c7pkryxllt501" path="res://side_tanks/resources/tank/explosion/tank_explosion3.png" id="4_18kcd"]
