@@ -16,14 +16,13 @@ Prototype for easily generate random characters giving a base character.
 The different characters inherit properties from the base character makeing it easy to extend.
 
 ### [Shooter Platformer](https://github.com/rteijeiro/Godot-Prototypes/tree/main/shooter_platformer)
-![Shooter Platformer](/media/shooter_platformer.gif)
 <img src="/media/shooter_platformer.gif" alt="Shooter Platformer" width="830" />
 A simple platformer game protoype including a Character2D which can move left and right and jump.
 It also includes a weapong that can be controlled with the mouse.
 The weapong shoots projectiles which collide with the world environment and display the impact.
 
 ### [Shooting Gallery](https://github.com/rteijeiro/Godot-Prototypes/tree/main/shooting_gallery)
-
+<img src="/media/shooting_gallery.gif" alt="Shooting Gallery" width="830" />
 A simple prototype that generates targets which move horizontally with a random speed.
 It allows to point and shoot with the mouse.
 
