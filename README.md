@@ -11,7 +11,7 @@ This is a list of the games prototypes included:
 ## 2D
 
 ### [Shape Characters](https://github.com/rteijeiro/Godot-Prototypes/tree/main/shape_characters)
-
+![Shape Characters](/media/shape_characters.png)
 Prototype for easily generate random characters giving a base character.
 The different characters inherit properties from the base character makeing it easy to extend.
 
