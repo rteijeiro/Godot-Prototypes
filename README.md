@@ -51,9 +51,23 @@ A clone of the famous Flappy Bird game.
 The plane flies up when the left mouse button is pressed and flies down when it's released.
 Random rocks are generated up and down which make the plane crash when colliding.
 
+### [Tower Defense](https://github.com/rteijeiro/Godot-Prototypes/tree/main/tower_defense)
+
+Tower Defense game prototype which allows you to position a new tower holding the left mouse button
+and create it releasing the mouse button. The towers automatically shoot at the soldiers which are
+spawned using a timer and follow a path using Path2D and PathFollow2D nodes.
+
 ### [Vampire Survivor](https://github.com/rteijeiro/Godot-Prototypes/tree/main/vampire_survivor)
 
 Prototype of a simple Vampire Survivor game clone.
 The player can move horizontally and vertically in a top-down perspective.
 The mouse allows to aim rotating the player and shoot when pressing the left mouse button.
 Zombies are randomly generated around the screen moving to the player position.
+
+## 3D
+
+(Coming soon!)
+
+## Multiplayer
+
+(Coming soon!)
