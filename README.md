@@ -17,6 +17,7 @@ The different characters inherit properties from the base character makeing it e
 
 ### [Shooter Platformer](https://github.com/rteijeiro/Godot-Prototypes/tree/main/shooter_platformer)
 ![Shooter Platformer](/media/shooter_platformer.gif)
+<img src="/media/shooter_platformer.gif" alt="Shooter Platformer" width="830" />
 A simple platformer game protoype including a Character2D which can move left and right and jump.
 It also includes a weapong that can be controlled with the mouse.
 The weapong shoots projectiles which collide with the world environment and display the impact.
