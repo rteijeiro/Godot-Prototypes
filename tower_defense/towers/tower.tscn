@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://cibdnu6sdumlx"]
+
+[ext_resource type="Script" uid="uid://cxacsojycpqrs" path="res://tower_defense/towers/tower.gd" id="1_0k4g4"]
+[ext_resource type="Texture2D" uid="uid://s00txpcqbb7t" path="res://tower_defense/resources/towers/towerDefense_tile180.png" id="1_4esp7"]
+[ext_resource type="Texture2D" uid="uid://c70myxbbrsp0w" path="res://tower_defense/resources/towers/towerDefense_tile249.png" id="2_0k4g4"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_4esp7"]
+radius = 211.265
+
+[node name="Tower" type="Area2D"]
+collision_mask = 2
+script = ExtResource("1_0k4g4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_4esp7")
+
+[node name="Base" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_4esp7")
+
+[node name="Cannon" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("2_0k4g4")
+
+[node name="Muzzle" type="Marker2D" parent="Cannon"]
+unique_name_in_owner = true
+position = Vector2(0, -34)
+
+[node name="ShootingTimer" type="Timer" parent="."]
+wait_time = 0.5
+one_shot = true
