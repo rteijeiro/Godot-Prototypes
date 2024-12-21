@@ -20,6 +20,10 @@ window/size/viewport_width=1280
 window/size/viewport_height=667
 window/size/resizable=false
 
+[editor]
+
+movie_writer/movie_file="/home/rteijeiro/Videos/Screencasts/godot-movie.avi"
+
 [input]
 
 move_left={
