@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dj4ewudwsdd6q"
-path="res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"
+uid="uid://bu2bp1k8lfpg7"
+path="res://.godot/imported/bg_wood.png-8ded493c3491f7888f597314e27735a2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/shape_characters.png"
-dest_files=["res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"]
+source_file="res://2D/shooting_gallery/resources/stall/bg_wood.png"
+dest_files=["res://.godot/imported/bg_wood.png-8ded493c3491f7888f597314e27735a2.ctex"]
 
 [params]
 

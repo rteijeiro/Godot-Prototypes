@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dj4ewudwsdd6q"
-path="res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"
+uid="uid://by8eanbidy2ut"
+path="res://.godot/imported/pink_body_circle.png-5e17cfc7bbedfd8498415d4e6ad7c70b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/shape_characters.png"
-dest_files=["res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"]
+source_file="res://2D/shape_characters/resources/characters/pink/pink_body_circle.png"
+dest_files=["res://.godot/imported/pink_body_circle.png-5e17cfc7bbedfd8498415d4e6ad7c70b.ctex"]
 
 [params]
 

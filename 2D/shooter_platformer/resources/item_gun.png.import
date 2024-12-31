@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dj4ewudwsdd6q"
-path="res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"
+uid="uid://bqwb1aa4rrnit"
+path="res://.godot/imported/item_gun.png-60a71265e8b57dfe1c5933f6a288b496.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/shape_characters.png"
-dest_files=["res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"]
+source_file="res://2D/shooter_platformer/resources/item_gun.png"
+dest_files=["res://.godot/imported/item_gun.png-60a71265e8b57dfe1c5933f6a288b496.ctex"]
 
 [params]
 

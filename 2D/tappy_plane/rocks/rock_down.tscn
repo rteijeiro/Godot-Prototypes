@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cjdhmplapqpo7"]
+
+[ext_resource type="Texture2D" uid="uid://yl0irfo8aic" path="res://2D/tappy_plane/resources/rockDown.png" id="1_alvx3"]
+[ext_resource type="Script" uid="uid://36cbt0dohyrc" path="res://2D/tappy_plane/rocks/rock_down.gd" id="1_q6brv"]
+
+[node name="RockDown" type="Area2D"]
+script = ExtResource("1_q6brv")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_alvx3")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-54, -119.5, -54, -99.1, -31, -16.5, -31, -11.8, -20.9, 0.5, 4, 118.9, 4, 119.5, 20.9, 119.5, 31, 31.6, 31, 23.2, 35.9, 17.5, 37.8, 17.5, 45, -44.4, 45, -52.7, 48.8, -56.5, 50.8, -56.5, 54, -85.3, 54, -119.5)

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dj4ewudwsdd6q"
-path="res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"
+uid="uid://oetg5nip1fi4"
+path="res://.godot/imported/ambulance.png-32dccec127346616016e47c1e2db4909.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/shape_characters.png"
-dest_files=["res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"]
+source_file="res://2D/side_racing/resources/obstacles/ambulance.png"
+dest_files=["res://.godot/imported/ambulance.png-32dccec127346616016e47c1e2db4909.ctex"]
 
 [params]
 

@@ -1,0 +1,47 @@
+[gd_scene load_steps=7 format=3 uid="uid://c1ktfwo8sxppu"]
+
+[ext_resource type="Texture2D" uid="uid://cunc4h77l15tu" path="res://2D/side_tanks/resources/tank/tanks_turret4.png" id="1_hwl2k"]
+[ext_resource type="Script" uid="uid://j0bn3giifn6m" path="res://2D/side_tanks/tank/tank.gd" id="1_spncm"]
+[ext_resource type="Texture2D" uid="uid://b7r0t6i4r3tlx" path="res://2D/side_tanks/resources/tank/tanks_tankTracks1.png" id="2_spncm"]
+[ext_resource type="Texture2D" uid="uid://boqr1ibvmqdxq" path="res://2D/side_tanks/resources/tank/tanks_tankDesert_body1.png" id="3_url57"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_hwl2k"]
+radius = 29.0
+height = 84.0
+
+[sub_resource type="Gradient" id="Gradient_spncm"]
+colors = PackedColorArray(1, 0, 0, 1, 0.329412, 1, 0, 1)
+
+[node name="Tank" type="CharacterBody2D"]
+script = ExtResource("1_spncm")
+
+[node name="Turret" type="Node2D" parent="."]
+position = Vector2(5, -38)
+
+[node name="Sprite2D" type="Sprite2D" parent="Turret"]
+position = Vector2(16, 0)
+texture = ExtResource("1_hwl2k")
+offset = Vector2(1, 0)
+
+[node name="Muzzle" type="Marker2D" parent="Turret"]
+position = Vector2(47, 0)
+
+[node name="Tracks" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-3, -2)
+texture = ExtResource("2_spncm")
+
+[node name="Chasis" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -20)
+texture = ExtResource("3_url57")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -14)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_hwl2k")
+
+[node name="Line2D" type="Line2D" parent="."]
+width = 15.0
+gradient = SubResource("Gradient_spncm")
+joint_mode = 2

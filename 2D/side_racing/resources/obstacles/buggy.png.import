@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dj4ewudwsdd6q"
-path="res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"
+uid="uid://bee8aqhhji6k1"
+path="res://.godot/imported/buggy.png-64433d1501b77ae17867f59e62b0d7aa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/shape_characters.png"
-dest_files=["res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"]
+source_file="res://2D/side_racing/resources/obstacles/buggy.png"
+dest_files=["res://.godot/imported/buggy.png-64433d1501b77ae17867f59e62b0d7aa.ctex"]
 
 [params]
 

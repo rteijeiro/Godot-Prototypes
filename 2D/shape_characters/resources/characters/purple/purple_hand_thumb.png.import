@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dj4ewudwsdd6q"
-path="res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"
+uid="uid://dvnn4hnx00srv"
+path="res://.godot/imported/purple_hand_thumb.png-dccd64f11cb2736080d52130afec7bba.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/shape_characters.png"
-dest_files=["res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"]
+source_file="res://2D/shape_characters/resources/characters/purple/purple_hand_thumb.png"
+dest_files=["res://.godot/imported/purple_hand_thumb.png-dccd64f11cb2736080d52130afec7bba.ctex"]
 
 [params]
 

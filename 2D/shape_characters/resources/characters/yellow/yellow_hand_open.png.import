@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dj4ewudwsdd6q"
-path="res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"
+uid="uid://cjcstigueu5sn"
+path="res://.godot/imported/yellow_hand_open.png-b0b0cbe55ec8560cb864fb2215d4cd01.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/shape_characters.png"
-dest_files=["res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"]
+source_file="res://2D/shape_characters/resources/characters/yellow/yellow_hand_open.png"
+dest_files=["res://.godot/imported/yellow_hand_open.png-b0b0cbe55ec8560cb864fb2215d4cd01.ctex"]
 
 [params]
 

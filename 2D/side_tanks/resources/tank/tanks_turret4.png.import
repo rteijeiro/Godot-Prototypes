@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dj4ewudwsdd6q"
-path="res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"
+uid="uid://cunc4h77l15tu"
+path="res://.godot/imported/tanks_turret4.png-f42589e0d2cbab199cbc5ccb579129d2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/shape_characters.png"
-dest_files=["res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"]
+source_file="res://2D/side_tanks/resources/tank/tanks_turret4.png"
+dest_files=["res://.godot/imported/tanks_turret4.png-f42589e0d2cbab199cbc5ccb579129d2.ctex"]
 
 [params]
 

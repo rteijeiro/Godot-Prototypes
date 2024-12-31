@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://hk1bxemieoh1"]
+
+[ext_resource type="Texture2D" uid="uid://diq5rgcdbohrk" path="res://2D/tower_defense/resources/towers/towerDefense_tile272.png" id="1_l3h2i"]
+[ext_resource type="Script" uid="uid://bdj4jrcfdkxi4" path="res://2D/tower_defense/towers/bullet.gd" id="1_t405k"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_t405k"]
+
+[node name="Bullet" type="Area2D"]
+collision_mask = 2
+script = ExtResource("1_t405k")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_l3h2i")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_t405k")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]

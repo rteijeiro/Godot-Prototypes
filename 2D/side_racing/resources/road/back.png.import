@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dj4ewudwsdd6q"
-path="res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"
+uid="uid://f3yblh2u01je"
+path="res://.godot/imported/back.png-439d342b0c8cae98d768c8c05f94c8a7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/shape_characters.png"
-dest_files=["res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"]
+source_file="res://2D/side_racing/resources/road/back.png"
+dest_files=["res://.godot/imported/back.png-439d342b0c8cae98d768c8c05f94c8a7.ctex"]
 
 [params]
 

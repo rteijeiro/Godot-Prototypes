@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dj4ewudwsdd6q"
-path="res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"
+uid="uid://dkqfcsdkbr0t"
+path="res://.godot/imported/tank_arrowFull.png-ff58a692e2a16bcf2aeeee1604542d95.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/shape_characters.png"
-dest_files=["res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"]
+source_file="res://2D/side_tanks/resources/tank/tank_arrowFull.png"
+dest_files=["res://.godot/imported/tank_arrowFull.png-ff58a692e2a16bcf2aeeee1604542d95.ctex"]
 
 [params]
 

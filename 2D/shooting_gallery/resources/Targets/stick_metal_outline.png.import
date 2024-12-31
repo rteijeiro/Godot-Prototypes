@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dj4ewudwsdd6q"
-path="res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"
+uid="uid://cjx3x24bw6f5n"
+path="res://.godot/imported/stick_metal_outline.png-e5285d0cc4afe99d1315f35e24f1d28d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/shape_characters.png"
-dest_files=["res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"]
+source_file="res://2D/shooting_gallery/resources/Targets/stick_metal_outline.png"
+dest_files=["res://.godot/imported/stick_metal_outline.png-e5285d0cc4afe99d1315f35e24f1d28d.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dj4ewudwsdd6q"
-path="res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"
+uid="uid://dkb8eyu1mynk4"
+path="res://.godot/imported/truckcabin.png-801d0bc52ee92f3c9bd5a2f920b6cf4a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/shape_characters.png"
-dest_files=["res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"]
+source_file="res://2D/side_racing/resources/obstacles/truckcabin.png"
+dest_files=["res://.godot/imported/truckcabin.png-801d0bc52ee92f3c9bd5a2f920b6cf4a.ctex"]
 
 [params]
 

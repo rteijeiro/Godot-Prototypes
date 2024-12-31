@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dj4ewudwsdd6q"
-path="res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"
+uid="uid://cjjbyp2ruh5sl"
+path="res://.godot/imported/effect_shot.png-97ff1906e2465c575805a1b76c95353a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/shape_characters.png"
-dest_files=["res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"]
+source_file="res://2D/shooter_platformer/resources/effect_shot.png"
+dest_files=["res://.godot/imported/effect_shot.png-97ff1906e2465c575805a1b76c95353a.ctex"]
 
 [params]
 

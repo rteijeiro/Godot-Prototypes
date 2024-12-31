@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dj4ewudwsdd6q"
-path="res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"
+uid="uid://ctto5eatqvtfw"
+path="res://.godot/imported/red_body_rhombus.png-4fa280efabfd023ac1afa2a84e3b23ec.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/shape_characters.png"
-dest_files=["res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"]
+source_file="res://2D/shape_characters/resources/characters/red/red_body_rhombus.png"
+dest_files=["res://.godot/imported/red_body_rhombus.png-4fa280efabfd023ac1afa2a84e3b23ec.ctex"]
 
 [params]
 

@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://vbgchrh7gvxg"]
+
+[ext_resource type="Texture2D" uid="uid://jeau6ojtivro" path="res://2D/space_shooter/resources/darkPurple.png" id="1_c1ovu"]
+[ext_resource type="Script" uid="uid://cefo2yncownwg" path="res://2D/space_shooter/space_shooter.gd" id="1_wr0f6"]
+[ext_resource type="PackedScene" uid="uid://dmmyr6kxhhv2u" path="res://2D/space_shooter/ship/ship.tscn" id="2_nfsai"]
+
+[node name="Space_Shooter" type="Node2D"]
+script = ExtResource("1_wr0f6")
+
+[node name="Background" type="Sprite2D" parent="."]
+texture_repeat = 2
+texture = ExtResource("1_c1ovu")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 1152, 648)
+
+[node name="Ship" parent="." instance=ExtResource("2_nfsai")]
+position = Vector2(567, 306)
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dj4ewudwsdd6q"
-path="res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"
+uid="uid://dfqkq12dyhg30"
+path="res://.godot/imported/planeRed3.png-1fff0302d575f46020d66e4e06b1df8f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/shape_characters.png"
-dest_files=["res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"]
+source_file="res://2D/tappy_plane/resources/plane/planeRed3.png"
+dest_files=["res://.godot/imported/planeRed3.png-1fff0302d575f46020d66e4e06b1df8f.ctex"]
 
 [params]
 

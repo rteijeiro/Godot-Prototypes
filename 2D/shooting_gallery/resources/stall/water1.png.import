@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dj4ewudwsdd6q"
-path="res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"
+uid="uid://cue5lq3uss33f"
+path="res://.godot/imported/water1.png-cef27cd7085a996615a945622892a511.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/shape_characters.png"
-dest_files=["res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"]
+source_file="res://2D/shooting_gallery/resources/stall/water1.png"
+dest_files=["res://.godot/imported/water1.png-cef27cd7085a996615a945622892a511.ctex"]
 
 [params]
 

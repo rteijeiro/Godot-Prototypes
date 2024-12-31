@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dj4ewudwsdd6q"
-path="res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"
+uid="uid://b7n7xyyudgn2e"
+path="res://.godot/imported/green_hand_peace.png-7810ec695bb35386ab2415199f4a3fe8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/shape_characters.png"
-dest_files=["res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"]
+source_file="res://2D/shape_characters/resources/characters/green/green_hand_peace.png"
+dest_files=["res://.godot/imported/green_hand_peace.png-7810ec695bb35386ab2415199f4a3fe8.ctex"]
 
 [params]
 

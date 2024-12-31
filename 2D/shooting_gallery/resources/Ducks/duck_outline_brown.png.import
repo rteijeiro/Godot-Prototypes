@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dj4ewudwsdd6q"
-path="res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"
+uid="uid://bhikfxuyrjgu4"
+path="res://.godot/imported/duck_outline_brown.png-c7c85dc6adf362d556a8cf64518d2c13.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/shape_characters.png"
-dest_files=["res://.godot/imported/shape_characters.png-c0587d70c1964f58346f8eea00fe2d7b.ctex"]
+source_file="res://2D/shooting_gallery/resources/Ducks/duck_outline_brown.png"
+dest_files=["res://.godot/imported/duck_outline_brown.png-c7c85dc6adf362d556a8cf64518d2c13.ctex"]
 
 [params]
 
