@@ -12,6 +12,7 @@ func _ready() -> void:
 	mouse_tower.modulate.a = 0.5
 	mouse_tower.hide()
 	add_child(mouse_tower)
+	mouse_tower.set_physics_process(false)
 	
 	_timer.timeout.connect(spawn_soldier)
 	
