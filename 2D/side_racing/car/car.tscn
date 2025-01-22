@@ -58,7 +58,7 @@ shape = SubResource("RectangleShape2D_l5d8c")
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(73, 0)
 zoom = Vector2(2, 2)
-limit_top = -120
+limit_top = 0
 limit_bottom = 120
 
 [node name="EngineSound" type="AudioStreamPlayer" parent="."]

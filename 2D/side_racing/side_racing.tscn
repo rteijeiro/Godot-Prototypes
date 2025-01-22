@@ -12,7 +12,7 @@ script = ExtResource("1_w288y")
 position = Vector2(258, 0)
 
 [node name="Car" parent="." instance=ExtResource("1_vwp1j")]
-position = Vector2(-1, 67)
+position = Vector2(0, 240)
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 volume_db = -5.0

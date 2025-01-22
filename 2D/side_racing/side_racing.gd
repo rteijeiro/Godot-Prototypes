@@ -28,7 +28,7 @@ func _ready() -> void:
 		var obstacle := Obstacle.instantiate()
 		# Sets the obstacle car position to a random position ahead of the car
 		# and inside of the road limits.
-		obstacle.position = Vector2(_car.global_position.x + 1500, randi_range(65, 190))
+		obstacle.position = Vector2(_car.global_position.x + 1500, randi_range(180, 310))
 		# Adds the obstacle car to the root scene.
 		add_child(obstacle)
 	)

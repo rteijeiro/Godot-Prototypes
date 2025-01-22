@@ -51,6 +51,6 @@ func _physics_process(delta: float) -> void:
 	_animated_sprite_2d.speed_scale = velocity.x / max_speed
 	
 	# Limits the car position to the road boundaries.
-	position.y = clamp(position.y, 65, 190)
+	position.y = clamp(position.y, 180, 310)
 	
 	move_and_slide()
